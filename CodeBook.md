@@ -24,7 +24,7 @@ To create final data set the following steps were taken
 * removed duplications: 'BodyBody' to 'Body'
 * expanded all abbreviations: 'Gyro' to 'Gyroscope', 'Acc' to 'Acceleration
 * changed first symbols from 't' to 'Time' and from 'f' to 'Freq' 
-* changed 'mean' to 'Mean' and 'std' to 'StdDev'    
+* changed 'mean' to 'Mean' and 'std' to 'StdDev'  
 4. data was transformed to calculate average for each variable by each subject and activity    
 
 Final data set is tidy because  
