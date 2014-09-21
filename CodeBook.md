@@ -16,16 +16,16 @@ The data for these data sets came from the accelerometer and gyroscope 3-axial r
 
 FINAL TIDY DATA   
 To create final data set the following steps were taken    
-1. test and train data sets the were merged keeping all 561 variables and 2 columns containing subjects ('Subject') and activity labels ('Activity') were added  
-2. the variable names were subsetted to contain only 'Subject', 'Activity' and mean and standard deviation measurements (all variables containing
+* test and train data sets the were merged keeping all 561 variables and 2 columns containing subjects ('Subject') and activity labels ('Activity') were added  
+* the variable names were subsetted to contain only 'Subject', 'Activity' and mean and standard deviation measurements (all variables containing
 'mean' or 'std' but excluding 'meanFreq')  
-3. variables were renamed with the following changes made 
-* removed all '-' and '()'
-* removed duplications: 'BodyBody' to 'Body'
-* expanded all abbreviations: 'Gyro' to 'Gyroscope', 'Acc' to 'Acceleration
-* changed first symbols from 't' to 'Time' and from 'f' to 'Freq' 
-* changed 'mean' to 'Mean' and 'std' to 'StdDev'
-4. data was transformed to calculate average for each variable by each subject and activity   
+* variables were renamed with the following changes made 
+    * removed all '-' and '()'
+    * removed duplications: 'BodyBody' to 'Body'
+    * expanded all abbreviations: 'Gyro' to 'Gyroscope', 'Acc' to 'Acceleration
+    * changed first symbols from 't' to 'Time' and from 'f' to 'Freq' 
+    * changed 'mean' to 'Mean' and 'std' to 'StdDev'
+* data was transformed to calculate average for each variable by each subject and activity   
 
 Final data set is tidy because  
 * each variable is in one column
