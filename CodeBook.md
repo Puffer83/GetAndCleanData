@@ -1,7 +1,7 @@
 ## This file contains information on variables for "Getting and Cleaning Data" Course Project submission.
 
 RAW DATA  
-Consists of 8 different data sets 
+Consists of 8 different data sets  
 1. features - names of 561 variables derived from the measurements made during the experiment  
 2. activities - 6 types of activity performed during the experiments with corresponding numerical labels    
 3. trainData - data for all variables in the training group (7352 observations in total)  
@@ -20,11 +20,11 @@ To create final data set the following steps were taken
 2. the variable names were subsetted to contain only 'Subject', 'Activity' and mean and standard deviation measurements (all variables containing
 'mean' or 'std' but excluding 'meanFreq')  
 3. variables were renamed with the following changes made    
-    * removed all '-' and '()'
-    * removed duplications: 'BodyBody' to 'Body'
-    * expanded all abbreviations: 'Gyro' to 'Gyroscope', 'Acc' to 'Acceleration
-    * changed first symbols from 't' to 'Time' and from 'f' to 'Freq' 
-    * changed 'mean' to 'Mean' and 'std' to 'StdDev'  
+* removed all '-' and '()'
+* removed duplications: 'BodyBody' to 'Body'
+* expanded all abbreviations: 'Gyro' to 'Gyroscope', 'Acc' to 'Acceleration
+* changed first symbols from 't' to 'Time' and from 'f' to 'Freq' 
+* changed 'mean' to 'Mean' and 'std' to 'StdDev'    
 4. data was transformed to calculate average for each variable by each subject and activity    
 
 Final data set is tidy because  
@@ -35,10 +35,10 @@ Please note each row contains a unique combination of 'Subject' and 'Activity'
 
 VARIABLES  
 
-**Subject**
+**Subject**  
 Integer: value in 1-30 range represents the volunteer that participated in experiment   
 
-**Activity**
+**Activity**  
 Factor with 6 levels    
 * WALKING    
 * WALKING_UPSTAIRS  
