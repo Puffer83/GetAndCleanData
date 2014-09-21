@@ -15,7 +15,7 @@ of each variable for each activity and each subject. This data set is then saved
 
 ============================================================================================
 Before running the program make sure that the file containing code (run_analysis.R) 
-and all .txt files containing original datasets (the list below) are saved in the working directory. 
+and unzipped data folder 'UCI HAR Dataset' are saved in the working directory. The list of files used in analysis.  
 * 'features.txt': List of all variables
 * 'activity_labels.txt': Links the numerical activity labels with an activity name
 * 'train/X_train.txt': Training set
